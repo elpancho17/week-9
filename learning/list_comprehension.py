@@ -1,3 +1,34 @@
+# # List comprehension = A concise way to create list in Python
+#                     conpact and easier to read thern traditional loops
+#                     [expression for value in iterable if condition]
+
+# doubles =[]
+# for x in range(1,11):
+#     doubles.append(x * 2)
+# print(doubles)
+
+# doubles =[x * 2 for x in range(1,11)]
+# triples =[y * 3 for x in range(1,11)]
+# squares =[z * z for z in range(1,11)]
+# print(squares)
+
+# fruits = ['apple', 'banana','orange', 'coconut']
+# fruit_chars = [fruit[0] for fruit in fruits]
+# print(fruit_chars)
+
+# numbers =[1, -2, 3, -4, 5, -6, -7]
+# # positive_nums = [num for num in numbers if num >= 0]
+# # negative_nums = [num for num in numbers if num < 0]
+# # even_nums = [num for num in numbers if num % 2 == 0]
+# odd_nums = [num for num in numbers if num % 2 == 1]
+
+# print(odd_nums)
+
+# grades = [85, 42, 79, 90, 56, 61, 30]
+# passing_grades = [grade for grade in grades if grade >= 60]
+
+# print(passing_grades)
+
 
 
 ################################################List comprehension###############################################
@@ -7,7 +38,9 @@
 # Create a square_values list consisting of the numbers in the values list, squared.
 
 # values = [1, 2, 3, 4, 5, 6, 9.5]
+# squares =[num * num for num in values]
 
+# print(squares)
 
 
 
@@ -18,7 +51,9 @@
 
 # values = [1, 2, 3, 4, 5, 6, 9.5]
 
+# even_nums = [num for num in values if num % 2 == 0]
 
+# print(even_nums)
 
 
 # List Comprehensions Practice #3

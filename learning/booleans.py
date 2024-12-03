@@ -92,6 +92,74 @@
 # print(a is not b)   # True
 # Remember, every boolean expression will evaluate to either True or False, and understanding this concept is fundamental for decision-making in programming.
 
+#video notes
+
+#comparisons:
+
+
+
+# Equal:          ==
+# Not Equal:       !=
+# Greater Than:    >
+# Less Than:        <
+# Greater or Equal: >=
+# Less or Equal:    <=
+# Object Identity: is
+
+
+
+# language='Java'
+
+# if language == 'python':
+#     print('Language is Python')
+# elif language == 'Java':
+#     print('language is Java')
+# elif language == 'JavaScrpit':
+#     print('language is JavaScript')
+# else:
+#     print('No match')
+
+
+
+#and
+# or
+#not
+
+
+# user= 'admin'
+# logged_in= False
+
+# if not logged_in:
+#     print('Please log in')
+# else:
+#     print('Welcome')
+
+# a = [1, 2, 3]
+# b = a
+
+# print(id(a))
+# print(id(b))
+# print(a is b)
+
+# False Values:
+# False
+# None
+# Zero of any numeric type
+# Any empty sequence. For example, '', (), [].
+# Any empty mapping. For example, {}.
+
+# condition = {}
+
+# if condition:
+#     print('Evalutate to True')
+# else:
+#     print('Evlutate to False')
+
+
+
+
+
+
 
 #######################boolean expressions challenges#####################
 # 20 points each challenge...
